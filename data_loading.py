@@ -1,7 +1,6 @@
 import pandas as pd 
 
-
-def load(path):
+def load(path: str) -> pd.DataFrame:
 	"""
 	Reads historical production data based on file path in 
 	config file
